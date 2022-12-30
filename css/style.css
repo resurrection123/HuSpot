@@ -15,9 +15,6 @@ body{
 .tra-ca{
   text-transform: capitalize;
 }
-.nborder-b{
-  border-bottom: none !important;
-}
 .m-30{
   margin: 0 30px;
 }
@@ -263,10 +260,13 @@ section{
   height: 50px;
 }
 #learn .stats .box-4 .box-information{
-  border-bottom: 1px solid white;
   padding: 20px;
   text-align: center;
 }
+#learn .stats .box-4 .box-information:first-child{
+  border-bottom: 1px solid white;
+}
+
 #learn .stats .box-4 .box-information h2{
   font-size: 40px;
   letter-spacing: 5px;
